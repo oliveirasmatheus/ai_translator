@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+footer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 2rem;
+}
+
+.bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("/static/images/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.myImage {
+    width: 40%;
+    min-width: 350px;
+}
+
+.credit-link, footer {
+    font-size: xx-small;
+    font-weight: lighter;
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+.loading-indicator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+}
